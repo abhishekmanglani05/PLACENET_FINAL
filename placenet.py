@@ -92,9 +92,9 @@ app = Flask(__name__)
   
 app.secret_key = 'xyzsdfg'
   
-app.config['MYSQL_HOST'] = 'localhost'
-app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = ''
+app.config['MYSQL_HOST'] = 'mysql-2c870e82-abhishekmanglani01-cac4.i.aivencloud.com'
+app.config['MYSQL_USER'] = 'avnadmin'
+app.config['MYSQL_PASSWORD'] = 'AVNS_0mhC5rzn9TVweEMdvDX'
 app.config['MYSQL_DB'] = 'placenet'
   
 mysql = MySQL(app)
@@ -399,4 +399,4 @@ def search01():
 
     
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run('0.0.0.0',port=8080,debug=True)
