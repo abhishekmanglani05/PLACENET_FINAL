@@ -92,10 +92,10 @@ app = Flask(__name__)
   
 app.secret_key = 'xyzsdfg'
   
-app.config['MYSQL_HOST'] = 'mysql-2c870e82-abhishekmanglani01-cac4.i.aivencloud.com'
-app.config['MYSQL_USER'] = 'avnadmin'
-app.config['MYSQL_PASSWORD'] = 'AVNS_0mhC5rzn9TVweEMdvDX'
-app.config['MYSQL_DB'] = 'placenet'
+app.config['MYSQL_HOST'] = 'sql.freedb.tech'
+app.config['MYSQL_USER'] = 'freedb_Abhishek'
+app.config['MYSQL_PASSWORD'] = 'gXkNE*VZ2j#WN#!'
+app.config['MYSQL_DB'] = 'freedb_Placenet'
   
 mysql = MySQL(app)
   
