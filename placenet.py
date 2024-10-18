@@ -323,7 +323,7 @@ def prediction():
     #     'Company': [data9]
     # }
 
-    df = pd.read_csv('C:\\Users\\Dell\\complete web development\\placenet\\student_dataset.csv')
+    df = pd.read_csv('student_dataset.csv')
 
     X = df.drop('Eligibility', axis=1)  # Features
     y = df['Eligibility']  # Target variable
