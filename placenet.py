@@ -9,10 +9,10 @@
   
 # app.secret_key = 'xyzsdfg'
   
-# app.config['MYSQL_HOST'] = 'localhost'
-# app.config['MYSQL_USER'] = 'root'
-# app.config['MYSQL_PASSWORD'] = ''
-# app.config['MYSQL_DB'] = 'user-system'
+# app.config['MYSQL_HOST'] = 'sql12.freesqldatabase.com'
+# app.config['MYSQL_USER'] = 'sql12738991'
+# app.config['MYSQL_PASSWORD'] = 'LMQNFU4zpG'
+# app.config['MYSQL_DB'] = 'sql12738991'
   
 # mysql = MySQL(app)
   
