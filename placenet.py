@@ -1,8 +1,4 @@
-# from flask import Flask, render_template, request, redirect, url_for, session
-# from flask_mysqldb import MySQL
-# import MySQLdb.cursors
-# import re
-  
+
   
 # app = Flask(__name__)
   
@@ -70,20 +66,6 @@
     
 # if __name__ == "__main__":
 #     app.run(debug=True)
-
-from flask import Flask, render_template, request, redirect, url_for, session
-from flask_mysqldb import MySQL
-import MySQLdb.cursors
-import re
-import pickle
-import pandas as pd
-import xgboost as xgb
-from sklearn.model_selection import train_test_split
-import warnings
-import numpy as np
-import random
-from random import choice, sample
-
 model = pickle.load(open("placement_prediction_model", "rb"))
   
   
@@ -396,7 +378,3 @@ def search01():
     # cursor = mysql.connect.cursor(MySQLdb.cursors.DictCursor)
     # cursor.execute("SELECT name, email FROM user WHERE Branch='%s';")
     # myresult=cursor.fetchall()
-
-    
-if __name__ == "__main__":
-    app.run('0.0.0.0',port=8080,debug=True)
