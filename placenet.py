@@ -84,7 +84,7 @@ import numpy as np
 import random
 from random import choice, sample
 
-model = pickle.load(open("C:\\Users\\Dell\\complete web development\\placenet\\placement_prediction_model", "rb"))
+model = pickle.load(open("placement_prediction_model", "rb"))
   
   
 app = Flask(__name__)
