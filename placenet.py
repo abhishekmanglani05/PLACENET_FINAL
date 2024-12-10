@@ -414,6 +414,6 @@ def search01():
 
     
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run('0.0.0.0',port=8080,debug=True)
 
 # once the user is loggod out to prevent login we have use javascript in both user.html and user1.html .
